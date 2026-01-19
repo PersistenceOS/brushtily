@@ -144,4 +144,14 @@ Unlike basic tile placement tools, Brushtily brings **professional digital paint
 
 ---
 
+## 👨‍💻 Credits
+
+**Created by:** Leo Louvar
+
+**Developed with:** [PersistenceAI](https://persistence-ai.github.io/Landing/) via vibe coding using model GLM 4.7
+
+This project was programmed and created using PersistenceAI's advanced AI-assisted development workflow, demonstrating the power of AI-human collaboration in software development.
+
+---
+
 **Transform your Tiled workflow with professional texture painting capabilities. Create beautiful, organic maps with the freedom of freehand brush strokes.**

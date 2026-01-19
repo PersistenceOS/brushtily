@@ -149,6 +149,14 @@ Contributions welcome! Please feel free to submit issues, feature requests, or p
 - Built for the Tiled Map Editor community
 - Uses Tiled's JavaScript Extension API
 
+## 👨‍💻 Credits
+
+**Created by:** Leo Louvar
+
+**Developed with:** [PersistenceAI](https://persistence-ai.github.io/Landing/) via vibe coding using model GLM 4.7
+
+This project was programmed and created using PersistenceAI's advanced AI-assisted development workflow, demonstrating the power of AI-human collaboration in software development.
+
 ## 📞 Support
 
 - **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/PersistenceOS/brushtily/issues)
