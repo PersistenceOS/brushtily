@@ -1,0 +1,18 @@
+# Exclude the main code file (private/proprietary)
+brushtily.mjs
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Tiled build files (if any)
+tiled-master/
