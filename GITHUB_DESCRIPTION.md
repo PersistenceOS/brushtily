@@ -156,4 +156,12 @@ This project was programmed and created using [PersistenceAI](https://persistenc
 
 ---
 
+## 📞 Support
+
+- **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/PersistenceOS/brushtily/issues)
+- **Questions**: Ask on [Tiled Forums](https://discourse.mapeditor.org/)
+- **Email**: Contact us at PersistenceAI@proton.me
+
+---
+
 **Transform your Tiled workflow with professional texture painting capabilities. Create beautiful, organic maps with the freedom of freehand brush strokes.**

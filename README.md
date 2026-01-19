@@ -163,3 +163,4 @@ This project was programmed and created using [PersistenceAI](https://persistenc
 
 - **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/PersistenceOS/brushtily/issues)
 - **Questions**: Ask on [Tiled Forums](https://discourse.mapeditor.org/)
+- **Email**: Contact us at PersistenceAI@proton.me
