@@ -7,19 +7,40 @@ A powerful JavaScript extension for Tiled that adds Inkarnate-inspired freeform 
 
 ## Features
 
+### Texture Painting
 - **Freeform Brush Strokes**: Paint with non-grid-aligned brush strokes
 - **Custom Brush Textures**: Load PNG/JPG images as brush textures
-- **Adjustable Properties**:
-  - Brush Size (10-500 pixels)
-  - Opacity (0-100%)
-  - Softness (0-100%) - Edge feathering
-  - Texture Scale (10-200%) - Scale texture independently from brush size
-  - Rotation (0-360 degrees)
-  - Blend Modes (Normal, Multiply, Screen, Overlay, Darken, Lighten, etc.)
-- **Fill Mode**: Bucket fill with color tolerance
-- **Pressure Sensitivity**: Velocity-based simulation for natural brush strokes
+- **Tileset Tile Brushes**: Use tiles from your tilesets directly as brush textures
+- **Multiple Brush Shapes**: Circular, Square, Ellipse, or Diamond brush shapes
+
+### Adjustable Brush Properties
+- **Brush Size** (10-500 pixels) - Adjustable brush diameter
+- **Opacity** (0-100%) - Control transparency of brush strokes
+- **Softness** (0-100%) - Edge feathering for smooth, natural transitions
+- **Texture Scale** (10-200%) - Scale texture independently from brush size
+- **Rotation** (0-360 degrees) - Rotate brush texture to any angle
+- **Rotation Jitter** (0-360°) - Random rotation variation for organic strokes
+- **Position Jitter** (0-100) - Random position variation to prevent repetitive patterns
+- **Spacing** (percentage) - Control distance between brush stamps
+- **Blend Modes** (Normal, Multiply, Screen, Overlay, Darken, Lighten, etc.) - Advanced compositing
+- **Mask Modes** (Add, Subtract, Multiply) - Precise control over brush interactions
+
+### Advanced Features
+- **Fill Mode**: Bucket fill with color tolerance control
+- **Pressure Sensitivity**: Velocity-based simulation for natural brush strokes (affects size and opacity)
+- **Right-Click Erase**: Independent erase brush with separate size and softness controls
 - **Brush Presets**: Save and load favorite brush configurations
-- **Dual Layer Support**: Works on ImageLayer (smooth painting) and ObjectGroup (undo support)
+- **Layer Brush Memory**: Automatically remembers brush texture per layer
+
+### Object Stamping System
+- **Object Layer Stamping**: Drag-to-stamp workflow for easy object placement on ObjectGroup layers
+- **Object Library Browser**: Visual browser with thumbnails, categories, and search functionality
+- **Automatic Object Placement**: Places objects along brush stroke path
+- **Random Variation**: Optional rotation and scale variation for natural object placement
+- **Folder-Based Organization**: Automatically categorizes objects by folder structure
+
+### Layer Support
+- **Dual Layer Support**: Works on ImageLayer (smooth painting, immediate visual feedback) and ObjectGroup (undo support, object stamping)
 
 ## 📦 Installation
 
@@ -73,6 +94,14 @@ Use the toolbar actions to adjust:
 1. Toggle "Fill Mode" button
 2. Click on an area to fill it with the current brush
 3. Fill tolerance can be adjusted (default: 32)
+
+### Object Layer Stamping
+
+1. Select an ObjectGroup layer
+2. Toggle "Stamp" mode (or use the action)
+3. Open "Library" to browse and select an object image
+4. Click and drag to stamp objects along your brush path
+5. Objects are automatically placed with optional random rotation and scale variation
 
 ### Saving Presets
 
