@@ -1,9 +1,9 @@
-# Brushtily - Inkarnate-style Texture Painting for Tiled
+# Brushtily - Inkarnate-inspired Texture Painting for Tiled
 
 [![Tiled Version](https://img.shields.io/badge/Tiled-1.8%2B-blue)](https://www.mapeditor.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-A powerful JavaScript extension for Tiled that adds freehand texture painting capabilities similar to Inkarnate, enabling smooth, non-grid-aligned brush strokes for creating beautiful terrain and textures.
+A powerful JavaScript extension for Tiled that adds Inkarnate-inspired freeform brushing and object stamping capabilities, enabling smooth, non-grid-aligned brush strokes for creating beautiful terrain and textures.
 
 ## Features
 
@@ -145,7 +145,7 @@ Contributions welcome! Please feel free to submit issues, feature requests, or p
 
 ## 🙏 Acknowledgments
 
-- Inspired by Inkarnate's texture painting workflow
+- Inspired by Inkarnate's freeform brushing and object stamping workflow
 - Built for the Tiled Map Editor community
 - Uses Tiled's JavaScript Extension API
 

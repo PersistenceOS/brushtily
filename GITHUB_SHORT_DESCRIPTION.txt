@@ -1,1 +1,1 @@
-Professional texture painting extension for Tiled Map Editor. Adds Inkarnate-style freehand brush strokes, custom textures, blend modes, pressure sensitivity, object stamping, and advanced painting tools. Transform Tiled into a powerful terrain painting tool.
+Professional texture painting extension for Tiled Map Editor. Adds Inkarnate-inspired freeform brushing and object stamping, custom textures, blend modes, pressure sensitivity, and advanced painting tools. Transform Tiled into a powerful terrain painting tool.
