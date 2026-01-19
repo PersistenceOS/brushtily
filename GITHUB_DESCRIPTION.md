@@ -2,7 +2,7 @@
 
 **Transform Tiled into a powerful terrain painting tool with Inkarnate-inspired freeform brushing and object stamping capabilities.**
 
-Brushtily is a comprehensive JavaScript extension that brings professional-grade texture painting features to Tiled Map Editor, enabling artists and level designers to create beautiful, organic terrain and textures with smooth, non-grid-aligned brush strokes.
+Brushtily is a powerful plugin bridging freeform brushing into Tiled with easy object placement. This comprehensive JavaScript extension brings professional-grade texture painting features to Tiled Map Editor, enabling artists and level designers to create beautiful, organic terrain and textures with smooth, non-grid-aligned brush strokes.
 
 ---
 

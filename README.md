@@ -3,7 +3,7 @@
 [![Tiled Version](https://img.shields.io/badge/Tiled-1.8%2B-blue)](https://www.mapeditor.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-A powerful JavaScript extension for Tiled that adds Inkarnate-inspired freeform brushing and object stamping capabilities, enabling smooth, non-grid-aligned brush strokes for creating beautiful terrain and textures.
+A powerful plugin bridging freeform brushing into Tiled with easy object placement. This JavaScript extension adds Inkarnate-inspired freeform brushing and object stamping capabilities, enabling smooth, non-grid-aligned brush strokes for creating beautiful terrain and textures.
 
 ## Features
 
