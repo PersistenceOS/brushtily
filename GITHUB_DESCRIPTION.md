@@ -148,6 +148,20 @@ Unlike basic tile placement tools, Brushtily brings **professional digital paint
 
 ---
 
+## ⚠️ Known Limitations & Issues
+
+### Limitations
+- ImageLayer painting has no undo support (per Tiled API limitations)
+- Use ObjectGroup mode for undo support (creates MapObjects for each stamp)
+- Tablet pressure not available in Tiled API - uses velocity simulation instead
+- Complex blend modes may have performance impact with large brushes
+
+### Known Issues
+- **Freeform Brush Rendering**: Freeform brush strokes may cause some visual rendering appearances during painting, but this does not impact the final outcome result
+- **Object Stamping Precision**: Object stamping does not place objects at 100% precise grid/tile positions due to isometric design considerations, though placement remains precise and accurate
+
+---
+
 ## 👨‍💻 Credits
 
 **Created by:** Leo Louvar
