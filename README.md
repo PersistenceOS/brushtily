@@ -13,6 +13,7 @@ A powerful plugin bridging freeform brushing into Tiled with easy object placeme
 
 ### Texture Painting
 - **Freeform Brush Strokes**: Paint with non-grid-aligned brush strokes
+- **Auto-Smoothing**: Automatic smoothing of brush strokes to remove hard edges for natural results
 - **Custom Brush Textures**: Load PNG/JPG images as brush textures
 - **Tileset Tile Brushes**: Use tiles from your tilesets directly as brush textures
 - **Multiple Brush Shapes**: Circular, Square, Ellipse, or Diamond brush shapes
@@ -32,7 +33,8 @@ A powerful plugin bridging freeform brushing into Tiled with easy object placeme
 ### Advanced Features
 - **Fill Mode**: Bucket fill with color tolerance control
 - **Pressure Sensitivity**: Velocity-based simulation for natural brush strokes (affects size and opacity)
-- **Right-Click Erase**: Independent erase brush with separate size and softness controls
+- **Auto-Smoothing Brush Layers**: Automatically smooths brush strokes to remove hard edges for natural, organic results
+- **Right-Click Erase**: Right-click and drag to erase painted areas with independent erase brush (separate size and softness controls)
 - **Brush Presets**: Save and load favorite brush configurations
 - **Layer Brush Memory**: Automatically remembers brush texture per layer
 
@@ -98,6 +100,13 @@ Use the toolbar actions to adjust:
 1. Toggle "Fill Mode" button
 2. Click on an area to fill it with the current brush
 3. Fill tolerance can be adjusted (default: 32)
+
+### Right-Click Erase
+
+1. Right-click and drag over painted areas to erase
+2. Erase brush has independent size and softness controls
+3. Works on both ImageLayer and ObjectGroup layers
+4. Maintains original image backup for precise erasing
 
 ### Object Layer Stamping
 
