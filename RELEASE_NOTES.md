@@ -1,42 +1,17 @@
-# Brushtily v1.0.0 - Initial Release
+# Brushtily v1.1.0 - Bug Fixes & Improvements
 
-## 🎉 First Public Release
+## 🐛 Bug Fixes
 
-Brushtily brings professional Inkarnate-inspired freeform brushing and object stamping to Tiled Map Editor!
+### Fixed Artifacting Issues
+- **Fixed discoloration when erasing or adding image layers**
+  - Resolved color shift problems that occurred during brush operations
+  - Improved color accuracy by properly handling premultiplied alpha channels
+  - Enhanced image layer compositing to prevent visual artifacts
 
-## ✨ Features
+## 🔧 Changes
 
-### Texture Painting
-- Freeform, non-grid-aligned brush strokes
-- Auto-smoothing brush layers for natural results
-- Custom brush textures (PNG/JPG)
-- Tileset tile brushes
-- Multiple brush shapes (Circle, Square, Ellipse, Diamond)
-
-### Advanced Brush Controls
-- Brush Size (10-500 pixels)
-- Opacity (0-100%)
-- Softness (0-100%) - Edge feathering
-- Texture Scale (10-200%)
-- Rotation (0-360°) with rotation jitter
-- Position jitter and spacing control
-- Professional blend modes (Normal, Multiply, Screen, Overlay, Darken, Lighten)
-- Mask modes (Add, Subtract, Multiply)
-
-### Object Stamping System
-- Drag-to-stamp workflow for easy object placement
-- Object Library Browser with thumbnails and categories
-- Automatic object placement along brush path
-- Random rotation and scale variation
-- Folder-based organization
-
-### Additional Features
-- Pressure sensitivity simulation (velocity-based)
-- Right-click erase with independent controls
-- Fill mode with color tolerance
-- Brush presets system
-- Layer brush memory
-- Native layer blending
+- Removed redundant button from toolbar to streamline the interface
+- Improved overall stability and performance
 
 ## 📦 Installation
 
